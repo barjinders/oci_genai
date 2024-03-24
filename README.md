@@ -60,7 +60,7 @@ cd oci_genai
 ### Acknowledgments
 I would like to extend my sincere gratitude to the following individuals on YouTube, whose invaluable tutorials and insights have significantly contributed to my learning and the successful completion of this demo. Their expertise and willingness to share knowledge have been instrumental in my development:
 
-[MehdiAllahyari](https://www.youtube.com/watch?v=bpeeqbBIH1A)
+[Mehdi Allahyari](https://www.youtube.com/watch?v=bpeeqbBIH1A)
 
 [Sam Witteveen](https://www.youtube.com/watch?v=3yPBVii7Ct0)
 
