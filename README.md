@@ -50,12 +50,13 @@ For more information on Oracle Cloud Infrastructure's Generative AI services and
 
 ### Getting Started
 
-To get started with this project, you will need access to Oracle Cloud Infrastructure and the necessary permissions to use the Generative AI models. Clone the repository and follow the instructions in `OCI_RAG_Langchain.ipynb` to set up your environment and begin experimenting with the technology.
+To get started with this project, you will need access to Oracle Cloud Infrastructure and the necessary permissions to use the Generative AI models. Clone the repository and follow the instructions in `OCI_RAG_Langchain.ipynb` to set up your environment, update the Compartment OCID in 'oci_model_wrapper.py' and begin experimenting with the technology.
 
 ```bash
 git https://github.com/barjinders/oci_genai
 cd oci_genai
 ```
+Provide the auth config file.The default configuration file name and location is ~/.oci/config.
 
 ### Acknowledgments
 I would like to extend my sincere gratitude to the following individuals on YouTube, whose invaluable tutorials and insights have significantly contributed to my learning and the successful completion of this demo. Their expertise and willingness to share knowledge have been instrumental in my development:
