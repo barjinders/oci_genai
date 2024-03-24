@@ -61,11 +61,17 @@ cd oci_genai
 I would like to extend my sincere gratitude to the following individuals on YouTube, whose invaluable tutorials and insights have significantly contributed to my learning and the successful completion of this demo. Their expertise and willingness to share knowledge have been instrumental in my development:
 
 [MehdiAllahyari](https://www.youtube.com/watch?v=bpeeqbBIH1A)
+
 [Sam Witteveen](https://www.youtube.com/watch?v=3yPBVii7Ct0)
+
 [Krish Naik](https://www.youtube.com/watch?v=zxo3T4aQj6Q)
+
 [Prompt Engineering](https://www.youtube.com/@engineerprompt)
+
 [llamaindex RAPTOR webinar](https://www.youtube.com/watch?v=Bhnq8grQm5Y&t=2067s)
+
 [Greg Kamradt](https://www.youtube.com/@DataIndependent)
+
 
 Their dedication to educating others in the field is truly inspiring, and I highly recommend their channels to anyone looking to expand their knowledge in GenAI.
 
