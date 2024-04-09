@@ -1,17 +1,18 @@
 
 from langchain_community.embeddings import OCIGenAIEmbeddings
 from langchain_community.llms import OCIGenAI
+from config import compartment_id, auth_profile,service_endpoint,embeddings_model_id,llm_model_id,llm_model_kwargs,embeddings_model_kwargs
 
 class OCIModelWrapper:
     def __init__(self):
         # Hardcoded parameters
-        self.compartment_id = "<Compartment OCID>"
-        self.auth_profile = "coeinfrastructure"
-        self.service_endpoint = "https://inference.generativeai.us-chicago-1.oci.oraclecloud.com"
-        self.embeddings_model_id = "cohere.embed-english-v3.0"
-        self.llm_model_id = "cohere.command" #meta.llama-2-70b-chat
-        self.model_kwargs = {"temperature": 0, "top_p": 0.75, "max_tokens": 1024}
-        
+        self.compartment_id = compartment_id
+        self.auth_profile = auth_profile
+        self.service_endpoint = service_endpoint
+        self.embeddings_model_id = embeddings_model_id
+        self.llm_model_id = llm_model_id
+        self.llm_model_kwargs = llm_model_kwargs
+        self.embeddings_model_kwargs = embeddings_model_kwargs
         # Initialize both models upon instance creation
         self.initialize_embeddings()
         self.initialize_llm()
@@ -23,7 +24,7 @@ class OCIModelWrapper:
             compartment_id=self.compartment_id,
             auth_type="API_KEY",
             auth_profile=self.auth_profile,
-            model_kwargs=self.model_kwargs
+            model_kwargs=self.embeddings_model_kwargs
         )
 
     def initialize_llm(self):
@@ -33,6 +34,6 @@ class OCIModelWrapper:
             compartment_id=self.compartment_id,
             auth_type="API_KEY",
             auth_profile=self.auth_profile,
-            model_kwargs=self.model_kwargs
+            model_kwargs=self.llm_model_kwargs
         )
 
