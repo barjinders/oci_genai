@@ -17,8 +17,8 @@ The Jupyter notebook `OCI_RAG_Langchain.ipynb` serves as a comprehensive guide t
 - **Practical Examples**: The notebook includes practical examples and use cases, showcasing the capabilities of the integrated system in real-world scenarios.
  ### Usage 
 Update the following settings in config.py file before running the notebook. 
-compartment_id = "Use the compartment ID from your OCI tenancy" 
-auth_profile = "Auth profile for authentication"
+- **compartment_id = "Use the compartment ID from your OCI tenancy" 
+- **auth_profile = "Auth profile for authentication"
 
 # OCI Generative AI: RAPTOR Framework Demonstration
 
