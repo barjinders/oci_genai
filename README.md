@@ -15,7 +15,10 @@ The Jupyter notebook `OCI_RAG_Langchain.ipynb` serves as a comprehensive guide t
 - **Integration with Oracle Cloud Infrastructure**: Demonstrates how to set up and use Oracle Cloud's Generative AI models within a cloud computing environment.
 - **Retrieval-Augmented Generation**: Combines the power of language models with the precision of retrieval-based methods to improve the quality and relevance of generated text.
 - **Practical Examples**: The notebook includes practical examples and use cases, showcasing the capabilities of the integrated system in real-world scenarios.
-
+ ### Usage 
+Update the following settings in config.py file before running the notebook. 
+compartment_id = "Use the compartment ID from your OCI tenancy" 
+auth_profile = "Auth profile for authentication"
 
 # OCI Generative AI: RAPTOR Framework Demonstration
 
