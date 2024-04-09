@@ -17,9 +17,10 @@ The Jupyter notebook `OCI_RAG_Langchain.ipynb` serves as a comprehensive guide t
 - **Practical Examples**: The notebook includes practical examples and use cases, showcasing the capabilities of the integrated system in real-world scenarios.
  ### Usage 
 Update the following settings in config.py file before running the notebook. 
-- **compartment_id = "Use the compartment ID from your OCI tenancy" 
-- **auth_profile = "Auth profile for authentication"
-
+```bash
+compartment_id = "Use the compartment ID from your OCI tenancy" 
+auth_profile = "Auth profile for authentication"
+```
 # OCI Generative AI: RAPTOR Framework Demonstration
 
 This Jupyter notebook is dedicated to showcasing the capabilities of the **OCI Generative AI** based **RAG (Retrieval-Augmented Generation)** model, utilizing the innovative **RAPTOR Framework**. RAPTOR stands for **Recursive Abstractive Processing for Tree-Organized Retrieval**, a cutting-edge approach to information retrieval.
